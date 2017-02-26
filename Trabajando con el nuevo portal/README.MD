@@ -167,6 +167,6 @@ En esta tarea, aprenderá sobre el portal y cómo crear una nueva aplicación we
 
 
 <a name="Summary"></a>
-## Summary ##
+## Resumen ##
 
 El nuevo portal de Azure ofrece una mirada emocionante sobre el futuro de DevOps. Esta es una experiencia de primera clase que reúne todos los recursos individuales, las personas y las etapas del ciclo de vida de su aplicación en un portal unificado. En este laboratorio, aprendió sobre el portal y cómo crear un nuevo grupo de recursos mediante la creación de una aplicación web.
