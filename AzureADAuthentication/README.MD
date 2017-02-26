@@ -1,7 +1,9 @@
-> Las herramientas de Microsoft ASP.NET para Azure Active Directory facilitan la autenticaci�n para aplicaciones web alojadas en [Azure] (https://www.windowsazure.com/en-us/home/features/web-sites/). Puede utilizar la autenticaci�n de Azure para autenticar los usuarios de Office 365 de su organizaci�n, las cuentas corporativas sincronizadas de su Active Directory en el sitio o los usuarios creados en su propio dominio Azure Active Directory personalizado. La habilitaci�n de la autenticaci�n de Windows Azure configura su aplicaci�n para autenticar a los usuarios utilizando un inquilino �nico [Azure Active Directory] (https://www.windowsazure.com/en-us/home/features/identity/).
+# Aplicacion Web con autenticacion con el directorio activo
+
+> Las herramientas de Microsoft ASP.NET para Azure Active Directory facilitan la autenticacion para aplicaciones web alojadas en [Azure] (https://www.windowsazure.com/en-us/home/features/web-sites/). Puede utilizar la autenticacion de Azure para autenticar los usuarios de Office 365 de su organizacion, las cuentas corporativas sincronizadas de su Active Directory en el sitio o los usuarios creados en su propio dominio Azure Active Directory personalizado. La habilitacion de la autenticacion de Windows Azure configura su aplicacion para autenticar a los usuarios utilizando un inquilino unico [Azure Active Directory] (https://www.windowsazure.com/en-us/home/features/identity/).
 > 
 
-Este tutorial te ense�anara como crear una aplicacion ASP.NET que esta configurada para autenticacion Azure AD. [Azure Active Directory](https://msdn.microsoft.com/en-us/library/azure/mt168838.aspx) (Azure AD).
+Este tutorial te enseñara como crear una aplicacion ASP.NET que esta configurada para autenticacion Azure AD. [Azure Active Directory](https://msdn.microsoft.com/en-us/library/azure/mt168838.aspx) (Azure AD).
 
 ## Prerequisitos
 
