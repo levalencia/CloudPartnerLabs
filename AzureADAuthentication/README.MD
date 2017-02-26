@@ -1,7 +1,7 @@
-> Las herramientas de Microsoft ASP.NET para Azure Active Directory facilitan la autenticación para aplicaciones web alojadas en [Azure] (https://www.windowsazure.com/en-us/home/features/web-sites/). Puede utilizar la autenticación de Azure para autenticar los usuarios de Office 365 de su organización, las cuentas corporativas sincronizadas de su Active Directory en el sitio o los usuarios creados en su propio dominio Azure Active Directory personalizado. La habilitación de la autenticación de Windows Azure configura su aplicación para autenticar a los usuarios utilizando un inquilino único [Azure Active Directory] (https://www.windowsazure.com/en-us/home/features/identity/).
+> Las herramientas de Microsoft ASP.NET para Azure Active Directory facilitan la autenticaciï¿½n para aplicaciones web alojadas en [Azure] (https://www.windowsazure.com/en-us/home/features/web-sites/). Puede utilizar la autenticaciï¿½n de Azure para autenticar los usuarios de Office 365 de su organizaciï¿½n, las cuentas corporativas sincronizadas de su Active Directory en el sitio o los usuarios creados en su propio dominio Azure Active Directory personalizado. La habilitaciï¿½n de la autenticaciï¿½n de Windows Azure configura su aplicaciï¿½n para autenticar a los usuarios utilizando un inquilino ï¿½nico [Azure Active Directory] (https://www.windowsazure.com/en-us/home/features/identity/).
 > 
 
-Este tutorial te enseñanara como crear una aplicacion ASP.NET que esta configurada para autenticacion Azure AD. [Azure Active Directory](https://msdn.microsoft.com/en-us/library/azure/mt168838.aspx) (Azure AD).
+Este tutorial te enseï¿½anara como crear una aplicacion ASP.NET que esta configurada para autenticacion Azure AD. [Azure Active Directory](https://msdn.microsoft.com/en-us/library/azure/mt168838.aspx) (Azure AD).
 
 ## Prerequisitos
 
@@ -12,14 +12,14 @@ Este tutorial te enseñanara como crear una aplicacion ASP.NET que esta configura
 
 1. Logearse al portal moderno [Azure  Portal](https://portal.azure.com/).
 2. Todas las cuentas de Azure tienen un Directorio por defecto buscar directorio activo en el menu de la izquierda.
-![](/content/images/2017/02/EntrarAAzureActiveDirectory.png)
+![](/images/EntrarAAzureActiveDirectory.png)
 3. Clic Add User.  
 4. Crear un usuario nuevo con el rol de Administrador Global.  
-![](/content/images/2017/02/CrearUsuario.png)
+![](/images/CrearUsuario.png)
 5.Tome nota del password para utilizar luego
   
    
-Guarde la contraseña, se le pedirá que cambie la contraseña después del primer inicio de sesión.
+Guarde la contraseï¿½a, se le pedirï¿½ que cambie la contraseï¿½a despuï¿½s del primer inicio de sesiï¿½n.
 
 ## Crear una aplicacion ASP.NET
 
