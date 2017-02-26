@@ -162,7 +162,7 @@ En esta tarea, aprenderá sobre el portal y cómo crear una nueva aplicación we
 	>
 	>![Unpin Resource Group from Dashboard](Images/unpin-resource-group-from-startboard.png?raw=true)
 	>
-	>_Unpinning Resource Group from DashBoard_
+	>_Quitando el grupo de recursos del Dashboard_
 	>El blade es eliminado.
 
 
