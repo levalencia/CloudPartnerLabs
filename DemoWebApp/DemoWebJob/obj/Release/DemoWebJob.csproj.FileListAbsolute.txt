@@ -1,0 +1,5 @@
+C:\Users\LUIS\Documents\CloudPartnerLabs\DemoWebApp\DemoWebJob\bin\Release\DemoWebJob.exe.config
+C:\Users\LUIS\Documents\CloudPartnerLabs\DemoWebApp\DemoWebJob\bin\Release\DemoWebJob.exe
+C:\Users\LUIS\Documents\CloudPartnerLabs\DemoWebApp\DemoWebJob\bin\Release\DemoWebJob.pdb
+C:\Users\LUIS\Documents\CloudPartnerLabs\DemoWebApp\DemoWebJob\obj\Release\DemoWebJob.exe
+C:\Users\LUIS\Documents\CloudPartnerLabs\DemoWebApp\DemoWebJob\obj\Release\DemoWebJob.pdb
