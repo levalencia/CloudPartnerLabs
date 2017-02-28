@@ -12,16 +12,17 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 | Contenido                                                                             | Tiempo           | Instructor/Estudiante  |
 | ------------------------------------------------------------------------------------- |:----------------:| ----------------------:|
 | 1.  Creacion cuenta Azure                                                             | 10 minutos       | Estudiantes            |
-| 2. [Trabajando con el nuevo portal](http://bit.ly/2m07N3v)                            | 20 minutos       | Instructor             |
-| 3. [Aplicacion Web con autenticacion con el directorio activo](http://bit.ly/2likpih) | 30 minutos       | Instructor/Estudiante  |
+| 2. [Trabajando con el nuevo portal](http://bit.ly/2myq05W)                            | 20 minutos       | Instructor             |
+| 3. [Aplicacion Web con autenticacion con el directorio activo](http://bit.ly/2lt2dU5) | 30 minutos       | Instructor/Estudiante  |
 | 4. [Lab: Azure App Service](http://bit.ly/2m0dn5S)                                    | 30 minutos       | Instructor/Estudiante  |
-| 5. [Lab: Security](http://bit.ly/2m0v1X9)                                             | 30 minutos       | Instructor/Estudiante  |
-| 6. [Lab: Document DB](http://bit.ly/2mnVUFM)                                          | 30 minutos       | Instructor/Estudiante  |
-| 7. [Lab: Notification HUBS](http://bit.ly/2lQ1my3)                                    | 30 minutos       | Instructor/Estudiante  |
-| 8. [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                          | 30 minutos       | Instructor/Estudiante  |
-| 9. [Lab: CDN](http://bit.ly/2mEFJjn)                                                  | 30 minutos       | Instructor/Estudiante  |
-| 10. [Lab: ARM - Opcional](http://bit.ly/2m09xK3)                                      | 40 minutos       | Estudiante             |
-| 11. [Lab: Azure Functions - Opcional](http://bit.ly/2lsHJek)                          | 30 minutos       | Estudiante             |
+| 5. [Lab: Storage](http://bit.ly/2m0v1X9)                                             | 30 minutos       | Instructor/Estudiante  |
+| 6. [Lab: Security]http://bit.ly/2mF2js5)                                             | 30 minutos       | Instructor/Estudiante  |
+| 7. [Lab: Document DB](http://bit.ly/2mnVUFM)                                          | 30 minutos       | Instructor/Estudiante  |
+| 8. [Lab: Notification HUBS](http://bit.ly/2lQ1my3)                                    | 30 minutos       | Instructor/Estudiante  |
+| 9. [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                          | 30 minutos       | Instructor/Estudiante  |
+| 10. [Lab: CDN](http://bit.ly/2mEFJjn)                                                  | 30 minutos       | Instructor/Estudiante  |
+| 12. [Lab: ARM - Opcional](http://bit.ly/2m09xK3)                                      | 40 minutos       | Estudiante             |
+| 12. [Lab: Azure Functions - Opcional](http://bit.ly/2lsHJek)                          | 30 minutos       | Estudiante             |
   
 > Total tiempo dia 1: Entre 6 horas a 7 horas.
 
