@@ -46,7 +46,7 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 ## Contenido para el estudiante (Opcional durante el entrenamiento)
 | Contenido                                                                             | Tiempo           | Instructor/Estudiante  |
 | ------------------------------------------------------------------------------------- |:----------------:| ----------------------:|
-| [Lab: Scaling and Availablility](http://bit.ly/2m07N3v)                               | 20 minutos       | Instructor             |
+| [Lab: Scaling and Availablility](http://bit.ly/2m5sfAx)                               | 20 minutos       | Instructor             |
 | [Lab: ARM - Opcional](http://bit.ly/2m09xK3)                                          | 40 minutos       | Estudiante             |
 | [Lab: Azure Functions - Opcional](http://bit.ly/2lsHJek)                              | 30 minutos       | Estudiante             |
   
