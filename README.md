@@ -16,7 +16,7 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 | 3. [Aplicacion Web con autenticacion con el directorio activo](http://bit.ly/2lt2dU5) | 30 minutos       | Instructor/Estudiante  |
 | 4. [Lab: Azure App Service](http://bit.ly/2m0dn5S)                                    | 30 minutos       | Instructor/Estudiante  |
 | 5. [Lab: Storage](http://bit.ly/2m0v1X9)                                             | 30 minutos       | Instructor/Estudiante  |
-| 6. [Lab: Security]http://bit.ly/2mF2js5)                                             | 30 minutos       | Instructor/Estudiante  |
+| 6. [Lab: Security](http://bit.ly/2mF2js5)                                             | 30 minutos       | Instructor/Estudiante  |
 | 7. [Lab: Document DB](http://bit.ly/2mnVUFM)                                          | 30 minutos       | Instructor/Estudiante  |
 | 8. [Lab: Notification HUBS](http://bit.ly/2lQ1my3)                                    | 30 minutos       | Instructor/Estudiante  |
 | 9. [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                          | 30 minutos       | Instructor/Estudiante  |
