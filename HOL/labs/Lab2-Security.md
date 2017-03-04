@@ -61,13 +61,17 @@ you can use a very simple policy: users can use the management site if and only 
 belong to its tenant.
 
 
-1.  Look at the list of labeled icons
-    on the left. Scroll down to find the **Active Directory** entry, which is near
-    the bottom
+1.  Find Azure Active Directory
 
     ![Active Directory icon and label](media/ad1.png)
+
+2.  Select it 
     ![Active Directory icon and label](media/ad2.png)
+
+3.  Type an organizacion name and AD domain name
     ![Active Directory icon and label](media/ad3.png)
+
+4.  On the users blade you can see the users and add new ones if you want.
     ![Active Directory icon and label](media/ad4.png)
 
 > **Note:** There are now **two** ways to proceed. In either case, you will create an
