@@ -69,6 +69,7 @@ belong to its tenant.
     ![Active Directory icon and label](media/ad2.png)
 
 3.  Type an organizacion name and AD domain name
+
     ![Active Directory icon and label](media/ad3.png)
 
 4.  On the users blade you can see the users and add new ones if you want.
@@ -125,130 +126,9 @@ for you.
 
 Since *Part 3* is an alternative to *Part 2*, you can now skip directly to **Part 4**.
 
-## Part 3 (optional): Create the Application Manually
 
-While it is convenient to have Visual Studio take care of setting up the app to
-use the Azure AD directory you created, it does hide some important details, and it's
-worth knowing what those are, because you may need to take control of this (e.g., if
-you set up an automated deployment pipeline). Visual Studio did the follwing:
 
- * Create a new Application in the Azure AD tenant, configured to enable the
-   Azure Kit management site to log users in using this tenant
- * Modified the `Web.config` file during deployment, setting the following values:
-    * `ida:TenantId` to the GUID that uniquely identifies your tenant
-    * `ida:Domain` to your tenant's domain name (including the `.onmicrosoft.com`
-       suffix)
-    * `ida:ClientId` to the GUID of the application it created in the tenant for you.
-
-You could have gone through all these steps manually. The following steps describe
-how to do it. You don't need to do this, because Visual Studio has already got things
-working for you, so you can skip these and go straight to the next part. But if you
-want to see exactly what Visual Studio did for you, you can do it all again by hand:
-
-1.  In the Azure management site, on the page for your new directory, click the
-    **APPLICATIONS** label near the top of the page:
-
-    ![Applications](media/TenantApplicationsLabel.png)
-
-2.  Near the bottom of the page, click the **ADD** button (**not** the **NEW** button;
-    the one you want will be in the center).
-
-    ![Add application button](media/TenantAddApp.png)
-
-3.  In the **What do you want to do** page that opens, select **Add an application
-    my organization is developing**
-
-    ![Add an application me organization is developing](media/TenantAddAppPage1.png)
-
-    It will now ask for information about your app:
-
-    ![App information](media/TenantAddAppAbout.png)
-
-    The name you type here will be shown to users when they are asked to log into
-    the app.
-
-    Leave the radio button on **WEB APPLICATION AND/OR WEB API** and then click
-    the arrow at the bottom right to move to the next page.
-
-4.  Next, Azure wants you to enter a **SIGN-ON URL** and an **APP ID URL**:
-
-    ![App properties](media/TenantAddAppProps.png)
-
-    For the sign-on URL, enter the URL of the web app you created to host the Azure
-    Kit management site. And you can use this same URL as the ID URI value too - it
-    just needs to be a unique identifier.
-
-    Click the tick at the bottom right when you are done. Azure will take a few
-    seconds creating the app, and will then show you the quick start page for the app.
-
-5.  Click the **CONFIGURE** label near the top of the page:
-
-    ![Configure](media/AdAppConfigureLabel.png)
-
-    Scroll down to find the **CLIENT ID**.
-
-    ![Client ID](media/AdAppConfigClientId.png)
-
-    Copy this value and save it somewhere - you will be needing it later (along with
-    the domain name you noted down earlier).
-
-6.  Scroll down to the **single sign-on** section and find the **REPLY URL**.
-    this will currently have the value you entered as the sign-in URL when creating
-    the application. If you used an HTTP URL (which is fine) you will need to edit
-    this reply URL to be an HTTPS URL.
-
-    ![Reply URL](media/AdAppSingleSignOn.png)
-
-    Click the **SAVE** button at the bottom of the page.
-
-    ![Save](media/AdAppSave.png)
-
-7.  You need one last piece of information: the tenant ID. In addition to a unique
-    domain name, all Azure AD tenants have a unique identifier (a GUID). This is
-    useful because tenants can have multiple domain names, and you can change the domains
-    over time, so  it's useful to have single canonical identifier that will never
-    change. Unfortunately, the Azure management site doesn't make it particularly
-    easy to find. One way to find it is to look in the address bar of your browser
-    - it will have a URL with a `#` followed by the text
-    `Workspaces/ActiveDirectoryExtension/Directory` followed by a GUID. That GUID is
-    your tenant id. Alternatively you can click the **VIEW ENDPOINTS** button at
-    the bottom of the screen:
-
-    ![View endpoints](media/AdAppViewEndpoints.png)
-
-    This shows numerous URLs all of which have a GUID directly after the slash
-    that follows the hostname. It will be the same GUID in all cases, and this is
-    also your tenant ID.
-
-    Make a copy of the tenant ID and save it in the same place as the client ID and
-    domain name you collected earlier.
-
-8.  In Visual Studio, open the `AzureKit.Management` project's `Web.config` file,
-    and find the `<appSettings>` section. Give  the `ida:ClientId`, `ida:TenantId`, and
-    `ida:Domain` settings the values you noted down earlier for the application's
-    client id, the tenant id, and the domain name you chose. For that last one,
-    you will need to append `.onmicrosoft.com` to the name you chose.
-
-9.  Right click the `AzureKit.Management` project in **Solution Explorer** and select
-    **Publish**. Click the **Publish** button.
-
-10. Once Visual Studio has finished deploying your app, it will open it in a web
-    browser. Click the **Sign in** link. Log in if prompted. The first time you use
-    the site you will see a consent prompt:
-
-    ![Login consent prompt](media/ManagementAppLogin.png)
-
-    Click **Accept**
-
-    The main page of the Azure Kit management site will show, and this time it won't
-    ask you to log in - it will show a series of links for managing various aspects
-    of the site.
-
-    **Note:** none of these will work yet! You have not yet created a DocumentDB
-    instance to hold the content, so the management site will have nowhere to put
-    it. You will need to complete the next lab before you will be able to use this.
-
-## Part 4: Create Azure AD B2C Directory for the Public Site and Mobile API
+## Part 3: Create Azure AD B2C Directory for the Public Site and Mobile API
 
 The directory you created in the preceding parts secures access to the 
 management site. If a new user is to gain access to the site, someone with
@@ -278,55 +158,22 @@ if you enable this. Users will be able to enter an email address, and it will se
 an email containing a verification link to allow them to prove that they own the
 email address.
 
-1.  Go to the Azure management site (not the portal) at
-    [https://manage.windowsazure.com/](https://manage.windowsazure.com/) and as
-    you did earlier in this lab, scroll down through the icons on the left to find 
-    the **Active Directory** entry, which is near the bottom.
+1.  Go to portal click create and find azure active directory b2c
 
-    ![Active Directory icon and label](media/ManagementSiteAd.png)
+    ![Active Directory icon and label](media/adbc1.png)
 
-2.  As before, click the **+ NEW** button near the bottom left of the page:
+2.  Click the **+ Create Azure AD B2C Tenant**:
 
-    ![New button](media/ManagementSiteNewButton.png)
+    ![New button](media/adbc2.png)
 
-3.  In the **NEW** panel that opens, the first two columns will already have
-    selected **APP SERVICES** and **ACTIVE DIRECTORY** for you. In the third column,
-    click **DIRECTORY**
+3.  Oncre created, select it.
 
-    ![Directory creation](media/ManagementSiteNewDirectory.png)
+    ![Directory creation](media/adbc3.png)
 
-    then click **CUSTOM CREATE**
+4.  Go to the old management site http://management.windowsazure.com, find your AD b2c tenant and get the ID from the     URL, copy it somewhere, you need it a few times later, this is referred as the Tenant ID.
+    ![Custom Create](media/adbc5.png)
 
-    ![Custom Create](media/ManagementSiteNewDirectoryCustomCreate.png)
-
-4.  An **Add directory** dialog will appear. As before, enter a
-    **NAME** and a **DOMAIN NAME**. These should be different than the ones you used
-    when creating the tenant for the management site. Select your country
-    
-    Unlike last time, you should check the B2C checkbox.
-
-    ![Add directory](media/AddB2CDirectory.png)
-
-    Azure might show you a warning indicating that this will be a slow operation -
-    B2C tenants take longer to create than normal ones.
-
-    **Note:** you will need the domain name later, so as with last time, take a note
-    of the value you entered.
-
-    Click the tick at the bottom right when you have filled everything in. Wait until
-    the tenant has been created. (Watch the progress information at the bottom of the
-    screen.)
-
-5.  Once the directory is ready, it will appear in your list of tenants. Strangely,
-    although you need to use the old Azure Management site to *create* a B2C tenant,
-    the only way to *configure* a B2C tenant is in the newer Azure portal. So you will
-    now need to navigate to [https://portal.azure.com/](https://portal.azure.com/)
-
-    **Note:** even if you have the portal open in a browser, it is worth opening a new
-    tab, because as you will see, it is tricky to navigate between the pages for
-    configuring a B2C tenant, and the pages for configuring your web apps.
-
-6.  At the top right of the portal is a button showing your user name and the name
+5.  At the top right of the portal is a button showing your user name and the name
     of the tenant associated with your subscription. If you click this, it shows a
     list of tenants that you belong to:
 
@@ -350,19 +197,12 @@ email address.
 
     ![More services](media/AzurePortalMoreServices.png)
 
+    Find your AD B2C directory, and create and application for the manaagement site.
 
-8.  In the filter textbox that appears, type **B2C**, at which point you should see
-    an **Azure AD B2C** entry in the list. Click on the star to the right of this, to
-    pin this to the list of icons and labels on the left of the page.
+    ![Custom Create](media/adbc4.png)  
 
-    ![Azure B2C icon](media/AzurePortalPinB2c.png)
 
-9.  Click on the new **Azure AD B2C** label that just got added to the list on the left.
-    The Azure portal will show the blade for configuring your B2C tenant. (It might show
-    a big warning telling you that this tenant is not associated with a subscription.
-    You can ignore that for these labs.)
-
-10. You must first tell Azure AD which identity providers to use, and supply it with
+8. You must first tell Azure AD which identity providers to use, and supply it with
     the details it requires to work with them. In the **Settings** column, click the
     **Identity providers** entry. It will initially show that no social identity
     providers have been configured. Click the **+ Add** button at the top of the blade.
@@ -389,6 +229,7 @@ email address.
     ![New application name](media/MsaNewApplication.png)
 
     Click **Create application**
+
 
 13. In the page that opens representing the new application, you will see some details:
 
@@ -423,6 +264,8 @@ email address.
     Click **Add Url**. Then at the bottom of the page click **Save**
 
     You have now completed the Microsoft Account configuration.
+    ![Custom Create](media/adbc6.png)
+    ![Custom Create](media/adbc7.png)
 
 14. Back in the Azure portal, you will also need to configure a *Sign In/Sign Up*
     policy for your B2C tenant, to tell it who should be allowed to log into the
