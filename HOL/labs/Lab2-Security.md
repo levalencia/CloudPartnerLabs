@@ -60,68 +60,15 @@ what you will be doing. By creating a dedicated tenant just for your management 
 you can use a very simple policy: users can use the management site if and only if they
 belong to its tenant.
 
-1.  At the time of writing this lab, you cannot yet create a new Azure AD tenant
-    in the Azure portal - you have to use the old Azure management site, which is
-    at [https://manage.windowsazure.com/](https://manage.windowsazure.com/). Navigate
-    there and log in if prompted.
 
-2.  Once the management site has finished loading, look at the list of labeled icons
+1.  Look at the list of labeled icons
     on the left. Scroll down to find the **Active Directory** entry, which is near
     the bottom
 
-    ![Active Directory icon and label](media/ManagementSiteAd.png)
-
-3.  Click the Active Directory label. The management site shows you a list of all
-    of the tenants for which you have administrator privileges. (If you access your
-    Azure subscription through a corporate tenant, it's possible that this list will
-    be empty, if you're not also an administrator of that tenant.) Near the bottom
-    left of the page, click the **+ NEW** button.
-
-    ![New button](media/ManagementSiteNewButton.png)
-
-4.  In the **NEW** panel that opens, the first two columns will already have
-    selected **APP SERVICES** and **ACTIVE DIRECTORY** for you. In the third column,
-    click **DIRECTORY**
-
-    ![Directory creation](media/ManagementSiteNewDirectory.png)
-
-    then click **CUSTOM CREATE**
-
-    ![Custom Create](media/ManagementSiteNewDirectoryCustomCreate.png)
-
-5.  An **Add directory** dialog will appear. It requires you to enter both a
-    **NAME** and a **DOMAIN NAME**. The name determines only how the directory
-    appears in the Azure Management site and also the Azure Portal. (Although you
-    can't yet create tenants in the Azure Portal, it does let you manage some aspects
-    of them.) The domain name is different - it needs to be globally unique. If you
-    try a name that is already in use by another tenant, the Azure Management site
-    will tell you. Finally, you need to specify the main country or region that will
-    be using this tenant. (Do **not** check the B2C checkbox.) 
-    Click the **tick** at the bottom right when you have filled this in.
-
-    ![Add directory](media/AddDirectory.png)
-
-     **Note:** you will need the domain name later. Take a note of the value you
-     entered. (You may find it convenient to open a text editor to collect this, and>
-     various other bits of information you'll be needing later.)
-    
-
-6.  Once the directory is ready, it will appear in your list of tenants. Click on it in the name column:
-
-    ![New tenant](media/TenantInList.png)
-
-    
-
-7.  The Azure Management site will show the quickstart page for the tenant. You don't
-    want this. Click on the **USERS** label near the top.
-
-    ![Users](media/TenantUsersLabel.png)
-
-    This will show a list of all the users in the tenant - currently just you. If you
-    want to grant other users access to the management site, you'd do it by going to
-    this page and then clicking the **ADD USER** button at the bottom of the page.
-    However, you don't need to do that right now, although feel free to if you want.
-
+    ![Active Directory icon and label](media/ad1.png)
+    ![Active Directory icon and label](media/ad2.png)
+    ![Active Directory icon and label](media/ad3.png)
+    ![Active Directory icon and label](media/ad4.png)
 
 > **Note:** There are now **two** ways to proceed. In either case, you will create an
 Application in your Azure AD tenant, and configure your Azure Kit management web
