@@ -11,32 +11,22 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 
 | Contenido                                                                             | Tiempo           | Instructor/Estudiante  |
 | ------------------------------------------------------------------------------------- |:----------------:| ----------------------:|
-| Slides Introduccion al curso                                                          | 5 minutos       | Instructor            |
-| Descargar codigo, configurar y compilar                                                      | 10 minutos       | Estudiante| 
-| Slides From Platform as a Service  to Benefits for developers                                                      | 10 minutos       | Instructor| 
-| Slides y  Demo : Create an Azure Web App                                                       | 10 minutos       | Instructor            |
-| [Lab: Azure App Service](http://bit.ly/2m0dn5S)                                    | 10 minutos       | Instructor/Estudiante  |
-| Demo : Azure Functions and Cognitive Services                                                        | 10 minutos       | Instructor        
-| [Lab: Azure Functions - Opcional](http://bit.ly/2lsHJek)                          | 20 minutos       | Estudiante             |
-| Slides y Demo : Notification Hub                                                  | 10 minutos       | Instructor  |
-| [Lab: Notification HUBS](http://bit.ly/2lQ1my3)                                    | 20 minutos       | Instructor/Estudiante  |
-| Slides y Demo : Xamarin and Mobile App Development                                                        | 20 minutos       | Instructor  | 
-| Slides y Demo : Azure API Management Tools and Logic Apps                                                    | 20 minutos       | Instructor 
-| Slides  y Demo : Logic Apps                                                    | 20 minutos       | Instructor    
-| Slides  y Demo : Service Fabric                                                    | 5 minutos       | Instructor    
-| Slides : Storage                                                   | 10 minutos       | Instructor    
-| [Lab: Storage](http://bit.ly/2m0v1X9)                                             | 20 minutos       | Instructor/Estudiante  |
-| Slides : SQL Database y DocumentDB                                                  | 10 minutos       | Instructor    
-| [Lab: SQL](http://bit.ly/2m0v1X9)    [Lab: Document DB](http://bit.ly/2mnVUFM)                                           | 30 minutos       | Instructor/Estudiante  |
-| Slides  y Demo : Redis Cache                                                 | 10 minutos       | Instructor    |
-| [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                          | 20 minutos       | Instructor/Estudiante  |
-| Slides: Azure Stack                                        | 5 minutos       | Instructor/Estudiante  |
-| Slides: Containers                                      | 5 minutos       | Instructor/Estudiante  |
-| Slides y Demo : Azure AD                                                   | 10 minutos       | Instructor    
-| Lab Azure AD: [Lab: Security](http://bit.ly/2mF2js5)                                             | 30 minutos       | Instructor/Estudiante |
-| Slides y Demo : CDN                                           | 10 minutos       | Instructor    
-| [Lab: CDN](http://bit.ly/2mEFJjn)                                                  | 20 minutos       | Instructor/Estudiante  |
-| Slides: Resource Groups                                     | 10 minutos       | Estudiante|
+| Slides Introduccion al curso                                                          | 5 minutos        | Instructor             |
+| Descargar codigo, configurar y compilar                                               | 10 minutos       | Estudiante             | 
+| Slides From Platform as a Service  to Benefits for developers                         | 10 minutos       | Instructor             | 
+| Slides y  Demo : Create an Azure Web App                                              | 10 minutos       | Instructor             |
+| [Lab: Azure App Service](http://bit.ly/2m0dn5S)                                       | 10 minutos       | Estudiante             |
+| Slides : Azure AD                                                                     | 10 minutos       | Instructor             |
+| [Lab: Security](http://bit.ly/2mF2js5)                                                | 40 minutos       | Estudiante             |
+| Slides : Storage                                                                      | 10 minutos       | Instructor             |  
+| [Lab: Storage](http://bit.ly/2m0v1X9)                                                 | 20 minutos       | Estudiante             |
+| Slides : SQL Database y DocumentDB                                                    | 10 minutos       | Instructor             |
+| [Lab: SQL](http://bit.ly/2m0v1X9)    [Lab: Document DB](http://bit.ly/2mnVUFM)        | 30 minutos       | Instructor             |
+| Slides  y Demo : Redis Cache                                                          | 10 minutos       | Instructor             |
+| [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                             | 20 minutos       | Estudiante             |
+| Slides CDN                                                                            | 10 minutos       | Instructor             | 
+| Slides y Demo : Notification Hub                                                      | 10 minutos       | Instructor             |
+| [Lab: Notification HUBS](http://bit.ly/2lQ1my3)                                       | 20 minutos       | Estudiante             |
   
 > Total tiempo dia 1: Entre 6 horas a 7 horas.
 
@@ -55,7 +45,20 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 | 10. Administracion de Builds e Integracion Continua  (Build and Test)                    | 30  minutos      | Instructor/Estudiante  |
 | 11. Administracion de Despliegues Continuos (Deploy)                                     | 30  minutos      | Instructor/Estudiante  |  
 
->Total tiempo dia 2:  3 horas
+>Total tiempo dia 2:  3 a 4 horas
+
+## Contenido Ocional
+| Contenido                                                                                 | Tiempo           | Instructor/Estudiante  |
+| ----------------------------------------------------------------------------------------- |:----------------:| ----------------------:|
+| Opcional Slides y Demo : Logic Apps                                                       | 20 minutos       | Instructor             |
+| Opcional Slides y Demo : Azure API Management Tools and Logic Apps                        | 20 minutos       | Instructor             |
+| Opcional Slides : Xamarin and Mobile App Development                                      | 20 minutos       | Instructor             | 
+| Opcional Slides: Service Fabric                                                           | 10 minutos        | Instructor             |
+| Opcional Slides: Azure Stack                                                              | 10 minutos        | Instructor             |
+| Opcional Slides: Containers                                                               | 10 minutos        | Instructor             |
+| Opcional Slides: Resource Groups                                                          | 10 minutos       | Instructor             |
+| [Lab: ARM](https://github.com/levalencia/CloudPartnerLabs/blob/master/HOL/labs/Lab6-ARM.md) | 30 minutos       | Estudiante             |
 
 
 
+>Total tiempo Contenidop Opcional:  3 horas
