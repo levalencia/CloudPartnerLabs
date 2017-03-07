@@ -33,17 +33,16 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 ## Dia 2
 | Contenido                                                                                | Tiempo           | Instructor/Estudiante  |
 | ---------------------------------------------------------------------------------------- |:----------------:| ----------------------:|
-| 1. Crear proyectos                                                                       | 10 minutos       | Instructor             |
-| 2. Administracion de Sprints                                                             | 10 minutos       | Instructor             |
-| 3. Administracion de historias de usuario                                                | 10 minutos       | Instructor             |
-| 4. Administracion de tareas, mapeo a historias de usuario                                | 10 minutos       | Instructor             |
-| 5. Administracion de consultas                                                           | 10 minutos       | Instructor             |
-| 6. Administracion de alertas                                                             | 10 minutos       | Instructor             |
-| 7. Administracion de Tableros                                                            | 10 minutos       | Instructor             |
-| 8. Administracion de Planes de Prueba y Ejecucion                                        | 10 minutos       | Instructor             |
-| 9. Ejercicio para el estudiante                                                          | 60 minutos       | Estudiante             |
-| 10. Administracion de Builds e Integracion Continua  (Build and Test)                    | 30  minutos      | Instructor/Estudiante  |
-| 11. Administracion de Despliegues Continuos (Deploy)                                     | 30  minutos      | Instructor/Estudiante  |  
+| Crear proyectos                                                                       | 10 minutos       | Instructor             |
+| Administracion de Sprints                                                             | 10 minutos       | Instructor             |
+| Administracion de historias de usuario/features/epics                                    | 10 minutos       | Instructor             |
+| Administracion de tareas, mapeo a historias de usuario                                | 10 minutos       | Instructor             |
+| Administracion de consultas                                                           | 10 minutos       | Instructor             |
+| Administracion de Tableros                                                            | 10 minutos       | Instructor             |
+| Administracion de Planes de Prueba y Ejecucion                                        | 10 minutos       | Instructor             |
+| Administracion de Builds e Integracion Continua  (Build and Test)                    | 20  minutos      | Instructor/Estudiante  |
+| Administracion de Despliegues Continuos (Deploy)                                     | 20  minutos      | Instructor/Estudiante  |  
+| Ejercicio para el estudiante                                                          | 60 minutos       | Estudiante             |
 
 >Total tiempo dia 2:  3 a 4 horas
 
