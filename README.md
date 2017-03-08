@@ -21,7 +21,7 @@ Recuerden visitar:  [luisevalencia.com](luisevalencia.com)
 | Slides : Storage                                                                      | 10 minutos       | Instructor             |  
 | [Lab: Storage](http://bit.ly/2m0v1X9)                                                 | 20 minutos       | Estudiante             |
 | Slides : SQL Database y DocumentDB                                                    | 10 minutos       | Instructor             |
-| [Lab: SQL](http://bit.ly/2m0v1X9)    [Lab: Document DB](http://bit.ly/2mnVUFM)        | 30 minutos       | Instructor             |
+| [Lab: SQL](https://github.com/levalencia/CloudPartnerLabs/blob/master/HOL/labs/Lab5-SqlServer.md)    [Lab: Document DB](http://bit.ly/2mnVUFM)        | 30 minutos       | Instructor             |
 | Slides  y Demo : Redis Cache                                                          | 10 minutos       | Instructor             |
 | [Lab: Redis Cache](http://bit.ly/2m5eFNH)                                             | 20 minutos       | Estudiante             |
 | Slides CDN                                                                            | 10 minutos       | Instructor             | 
